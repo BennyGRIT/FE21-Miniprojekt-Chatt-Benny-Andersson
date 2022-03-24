@@ -33,7 +33,6 @@ body{
 .taBortKnapp{
     font-size: 10px;
     margin-bottom: 1px;
-
 }
 
 h4{
@@ -42,8 +41,12 @@ h4{
 }
 
 .sectionId{
-    border-bottom: 3px dotted darkgray;
-    margin-bottom: 1rem;
+border: solid 2px black;
+background-color: linen;
+margin-bottom: 1rem;
+padding: 5px;
+border-radius: 1rem;
+
 }
 
 #bottomOfTheOcean{
