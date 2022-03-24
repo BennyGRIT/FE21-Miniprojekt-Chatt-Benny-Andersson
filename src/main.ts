@@ -28,7 +28,7 @@ nameBtn.addEventListener('click', e => {
 
     document.getElementById('legendId').innerHTML = `Ditt användarnamn: ${myName}`
 
-
+ 
     nameBtn.style.display = "none"
     myUserInput.style.display = "none"
 
