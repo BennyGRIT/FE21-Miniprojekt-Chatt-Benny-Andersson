@@ -20,7 +20,7 @@
   "homepage": "https://github.com/cleivas/parcel-pages#readme",
   "devDependencies": {
     "del-cli": "^4.0.1",
-    "parcel": "^2.3.2",
+    "parcel": "^2.4.0",
     "process": "^0.11.10"
   },
   "browserslist": [
