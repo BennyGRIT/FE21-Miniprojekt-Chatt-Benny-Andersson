@@ -50,8 +50,12 @@ border-radius: 1rem;
 }
 
 #bottomOfTheOcean{
-position: sticky;
+position: fixed;
 bottom: 0;
 background-color: grey;
 border-top: 2px black solid;
+}
+
+#allChatt{
+    margin-bottom: 12rem;
 }

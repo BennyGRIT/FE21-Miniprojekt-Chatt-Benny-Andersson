@@ -70,6 +70,7 @@ nameBtn.addEventListener('click', e => {
                 todoData[key].theTime
             ));
         }
+
         console.log(tasks);
 
         
@@ -90,6 +91,9 @@ nameBtn.addEventListener('click', e => {
             }
             only25()
 
+            const scrollingElement = (document.scrollingElement || document.body);
+            scrollingElement.scrollTop = scrollingElement.scrollHeight;
+        
     })
 
     //Add a task
@@ -126,6 +130,10 @@ nameBtn.addEventListener('click', e => {
         update(dbRef, newTask);
 
         chatTxt.value = '';
+
+
+        const scrollingElement = (document.scrollingElement || document.body);
+        scrollingElement.scrollTop = scrollingElement.scrollHeight;
     })
 
     /////////////////////
@@ -151,9 +159,11 @@ nameBtn.addEventListener('click', e => {
 
 
             const container: HTMLElement = document.createElement('section');
+            const myAllChatt: HTMLElement = document.getElementById('allChatt');
             container.setAttribute('class', 'sectionId')
             container.id = this.id;
             document.body.prepend(container);
+            myAllChatt.appendChild(container)
 
             const h4: HTMLHeadingElement = document.createElement('h4');
             h4.innerText = `Tid: ${this.theTime}
