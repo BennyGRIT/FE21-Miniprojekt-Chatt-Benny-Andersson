@@ -1,0 +1,54 @@
+body{
+    background-color: grey;
+}
+#legendId{
+    font-size: larger;
+}
+
+/* #userName{
+    margin-bottom: 2rem;
+
+} */
+
+
+
+#chattRuta{
+    margin-bottom: 3rem;
+}
+
+#chatInput{
+    margin-top: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+#add{
+    font-size: large;
+    border: 3px solid black;
+    border-radius: 95%;
+    margin: 0;
+    padding: 10px;
+}
+
+.taBortKnapp{
+    font-size: 10px;
+    margin-bottom: 1px;
+
+}
+
+h4{
+    margin: 0;
+
+}
+
+.sectionId{
+    border-bottom: 3px dotted darkgray;
+    margin-bottom: 1rem;
+}
+
+#bottomOfTheOcean{
+position: sticky;
+bottom: 0;
+background-color: grey;
+border-top: 2px black solid;
+}
